@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title> Agriculture Registration Form </title>
+</head>
+<body bgcolor="lightgreen">
+
+<h1><center> FARMER REGISTRATION FORM </center></h1>
+
+<form action="">
+
+<fieldset>
+    <legend> FARMER DETAILS </legend>
+    <br>
+
+    <label> Farmer Name </label>
+    <input type="text" id="fname" name="fname" required>
+    <br><br>
+
+    <label> Mobile Number </label>
+    <input type="text" id="mobile" name="mobile" required>
+    <br><br>
+
+    <label> Email </label>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label> Password </label>
+    <input type="password" id="pass" name="pass" required>
+    <br><br>
+
+    <label> Gender: </label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label> Male </label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label> Female </label>
+    <br><br>
+
+    <label> Farm Address </label><br>
+    <textarea name="address" rows="5" cols="50">Enter your farm address...</textarea>
+    <br><br>
+
+    <label> Farmer Type </label>
+    <input type="radio" id="small" name="farmer_type" value="small">
+    <label> Small Farmer </label>
+    <input type="radio" id="large" name="farmer_type" value="large" checked>
+    <label> Large Farmer </label>
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</fieldset>
+
+<br><br>
+
+<fieldset>
+    <legend> FARM DETAILS </legend>
+    <br>
+
+    <label> Crop Type (Select Multiple) </label><br>
+    <select id="crop" name="crop" multiple size="5">
+        <option value="rice"> Rice </option>
+        <option value="wheat"> Wheat </option>
+        <option value="maize"> Maize </option>
+        <option value="cotton"> Cotton </option>
+        <option value="vegetables"> Vegetables </option>
+    </select>
+
+    <br><br>
+
+    <legend> Farming Skills / Practices </legend>
+    <br>
+
+    <input type="checkbox" id="organic" name="skills" value="organic">
+    <label for="organic"> Organic Farming </label>
+
+    <input type="checkbox" id="irrigation" name="skills" value="irrigation">
+    <label for="irrigation"> Drip Irrigation </label>
+
+    <input type="checkbox" id="fertilizer" name="skills" value="fertilizer">
+    <label for="fertilizer"> Fertilizer Management </label>
+
+    <input type="checkbox" id="pest" name="skills" value="pest">
+    <label for="pest"> Pest Control </label>
+
+    <input type="checkbox" id="soil" name="skills" value="soil">
+    <label for="soil"> Soil Testing </label>
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
